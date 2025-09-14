@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navber = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-lg px-4 fixed z-10">
+            <div className="navbar bg-base-100 shadow-lg px-4 sm:px-8 fixed z-10">
   <div className="flex-1">
     <Link to='/' className="btn btn-ghost gap-0 text-secondary normal-case text-2xl">Byte<span className='text-primary'>Blaze</span></Link>
   </div>

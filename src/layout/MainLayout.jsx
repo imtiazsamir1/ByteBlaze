@@ -11,13 +11,13 @@ const MainLayout = () => {
                 <Navber/>
  </div>
                
-            <div>
+            <div className='min-h-[calc{100vh-116px}]'>
             
              <Outlet/>
-               
+               </div>
            <Footer/>
            
-            </div>
+            
         </div>
     );
 };
